@@ -1,0 +1,5 @@
+{
+  "name": "limits-card",
+  "owner": { "name": "Максим Клопов" },
+  "plugins": [{ "name": "limits-card", "source": "./" }]
+}

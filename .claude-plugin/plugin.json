@@ -1,0 +1,18 @@
+{
+  "name": "limits-card",
+  "version": "0.1.0",
+  "description": "Тонкая карточка лимитов в боковой панели: 5 часов и неделя, процент и время до сброса. /limits открывает и закрывает её.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Максим Клопов"
+  },
+  "userConfig": {
+    "handoffAt": {
+      "type": "number",
+      "title": "Передача дел",
+      "description": "На скольких токенах контекста ctx-handoff передаёт дела в новую сессию (как его threshold).",
+      "required": false,
+      "default": 300000
+    }
+  }
+}
